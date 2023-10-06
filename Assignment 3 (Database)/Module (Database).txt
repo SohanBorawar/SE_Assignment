@@ -33,19 +33,36 @@ Sometimes, unintentional duplicity of data causes a problem for the database to 
 
  What is DDL Interpreter?
 
+DDL Interpreter DDL expands to Data Definition Language. DDL Interpreter as the name suggests interprets the DDL statements such as schema definition statements like create, delete, etc. The result of this interpretation is a set of a table that contains the meta-data which is stored in the data dictionary.
 
  
  What is DML Compiler in SQL? 
 
+A DML (data manipulation language) refers to a computer programming language that allows you to add (insert), delete (delete), and alter (update) data in a database. A DML is typically a sublanguage of a larger database language like SQL, with the DML containing some of the language's operators.
 
 
  What is SQL Key Constraints writing an Example of SQL Key Constraints 
 
+SQL constraints are used to specify rules for the data in a table.
 
+Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+
+Constraints can be column level or table level. Column level constraints apply to a column, and table level constraints apply to the whole table.
+
+The following constraints are commonly used in SQL:
+
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
 
  What is save Point? How to create a save Point write a Query? 
 
-
+A SAVEPOINT is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction. The syntax for a SAVEPOINT command is as shown below. SAVEPOINT SAVEPOINT_NAME; This command serves only in the creation of a SAVEPOINT among all the transactional statements
 
  What is trigger and how to create a Trigger in SQL?
 
+A trigger in SQL is a procedural code that is automatically executed in response to certain events on a specified table.
