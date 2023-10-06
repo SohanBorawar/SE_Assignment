@@ -1,0 +1,51 @@
+ What do you understand By Database 
+
+A database is an organized collection of data, stored and retrieved digitally from a
+remote or local computer system. Databases can be vast and complex, and such
+databases are developed using fixed design and modeling approaches.
+
+
+ What is Normalization?
+
+In database management systems (DBMS), normal forms are a series of guidelines that help to ensure that the design of a database is efficient, organized, and free from data anomalies. There are several levels of normalization, each with its own set of guidelines, known as normal forms.
+
+
+ What is Difference between DBMS and RDBMS?
+
+RDBMS stands for Relational Database Management System. The key difference here,
+compared to DBMS, is that RDBMS stores data in the form of a collection of tables,
+and relations can be defined between the common fields of these tables. Most
+modern database management systems like MySQL, Microsoȅ SQL Server, Oracle,
+IBM DB2, and Amazon Redshiȅ are based on RDBMS.
+
+ What is MF Cod Rule of RDBMS Systems?
+
+Codd’s rule in DBMS also known as Codd's 12 rules/commandments is a set of thirteen rules (numbered 0 to 12) that define a database to be a correct Relational Database Management System (RDBMS). If a database follows Codd's 12 rules, it is called a True relational database management system.
+
+
+ What do you understand By Data Redundancy?
+
+In DBMS, when the same data is stored in different tables, it causes data redundancy.
+
+Sometimes, it is done on purpose for recovery or backup of data, faster access of data, or updating data easily. Redundant data costs extra money, demands higher storage capacity, and requires extra effort to keep all the files up to date.
+
+Sometimes, unintentional duplicity of data causes a problem for the database to work properly, or it may become harder for the end user to access data. Redundant data unnecessarily occupy space in the database to save identical copies, which leads to space constraints, which is one of the major problems.
+
+ What is DDL Interpreter?
+
+
+ 
+ What is DML Compiler in SQL? 
+
+
+
+ What is SQL Key Constraints writing an Example of SQL Key Constraints 
+
+
+
+ What is save Point? How to create a save Point write a Query? 
+
+
+
+ What is trigger and how to create a Trigger in SQL?
+
